@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Guilherme Godoi — Portfólio</title>
+  <meta name="description" content="Portfólio de Guilherme Godoi — Desenvolvedor | Designer | Criador" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Manrope:wght@600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <!-- AOS for scroll animations -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/2b7b7b7b7b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <div class="brand">
+        <img src="assets/img/logo.svg" alt="logo" class="logo">
+        <div>
+          <h1>Guilherme <span>Godoi</span></h1>
+          <p class="muted">Desenvolvedor de Sistemas</p>
+        </div>
+      </div>
+      <nav class="menu" id="menu">
+        <a href="#home">Home</a>
+        <a href="#about">Sobre</a>
+        <a href="#projects">Projetos</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experiência</a>
+        <a href="#contact" class="cta">Contato</a>
+      </nav>
+      <button class="burger" id="burger" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-left" data-aos="fade-right">
+          <h2>Olá — eu sou <span>Guilherme</span></h2>
+          <p class="lead">Desenvolvedor de Sistemas e criador de experiências digitais. Eu transformo ideias em produtos.</p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn">Ver Projetos</a>
+            <a href="./assets/files/CVG_20250630_114508_0000.pdf" download class="btn">Baixar CV</a>
+          </div>
+          <div class="badges" data-aos="fade-up" data-aos-delay="200">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Python</span><span>React Native</span><span>UI/UX</span>
+          </div>
+        </div>
+        <div class="hero-right" data-aos="fade-left">
+          <div class="card-3d">
+            <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" alt="workspace">
+            <div class="card-glow"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container" data-aos="fade-up">
+        <h3>Sobre mim</h3>
+        <p>Sou estudante de Sistemas da Informação no UNASP, com formação técnica em Desenvolvimento de Sistemas. Tenho experiência com front‑end e back‑end, criação de layouts, animações e desenvolvimento de aplicações com foco em usabilidade e escalabilidade.</p>
+        <div class="split">
+          <div>
+            <h4>O que eu faço</h4>
+            <ul>
+              <li>Desenvolvimento Front‑end</li>
+              <li>Back‑end </li>
+              <li>UI/UX (Figma)</li>
+            </ul>
+          </div>
+          <div>
+            <h4>Destaques</h4>
+            <ul>
+              <li>Aplicativo Calm Mind (TCC)</li>
+              <li>Caculadora de GET</li>
+              <li>Calculo de Sistemas Lineares</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section projects">
+      <div class="container" data-aos="fade-up">
+        <h3>Projetos selecionados</h3>
+        <div class="projects-grid">
+          <!-- Project card 1 -->          
+          </article>
+          <article class="project-card" data-aos="zoom-in" data-aos-delay="200" data-project="3">
+            <img src="https://tse4.mm.bing.net/th/id/OIP.sjws3hvcseJURGOQIRXsvQHaEK?rs=1&pid=ImgDetMain&o=7&rm=3" alt="project">
+            <div class="project-info">
+              <h4>Calm Mind</h4>
+              <p>Um aplicativo que usa meditações, sons e musicas para ajudar no alivio da ansiedade.</p>
+              <div class="tags"><span>React Native</span><span>Expo</span></div>
+              <div class="project-actions">
+                <button class="btn small" onclick="openModal(3)">Detalhes</button>
+                <a class="btn small ghost" href="#">Ver Código</a>
+              </div>
+            </div>
+          </article>
+          <article class="project-card" data-aos="zoom-in" data-project="1">
+            <img src="https://th.bing.com/th/id/R.5fc374b0e87087277f3fe3c2e311206c?rik=sDLR5qbGU7NrfQ&pid=ImgRaw&r=0" alt="project">
+            <div class="project-info">
+              <h4>Calculo de GET</h4>
+              <p>Um sitema em Python para cálculo de Gasto Energético Total.</p>
+              <div class="tags"><span>Python</span><span>Customtkinter</span></div>
+              <div class="project-actions">
+                <button class="btn small" onclick="openModal(1)">Detalhes</button>
+                <a class="btn small ghost" href="https://github.com/guigodoi2006/calculadora-get.git">Ver Código</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project card 2 -->
+          <article class="project-card" data-aos="zoom-in" data-aos-delay="100" data-project="2">
+            <img src="https://worksheets.clipart-library.com/images2/printable-graphs-with-x-and-y-axis/printable-graphs-with-x-and-y-axis-5.png" alt="project">
+            <div class="project-info">
+              <h4>Calculo de Sitemas Lineares</h4>
+              <p>Um sistema que calcula Sistemas lineares pelo método de escalonamento.</p>
+              <div class="tags"><span>Python</span></div>
+              <div class="project-actions">
+                <button class="btn small" onclick="openModal(2)">Detalhes</button>
+                <a class="btn small ghost" href="https://github.com/guigodoi2006/sistemas-lineares.git">Ver Código</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project card 3 -->
+          <article class="project-card" data-aos="zoom-in" data-aos-delay="200" data-project="3">
+            <img src="https://tse3.mm.bing.net/th/id/OIP.0GRo7kpS5pVMRo_hZ6c5awHaFj?rs=1&pid=ImgDetMain&o=7&rm=3r" alt="project">
+            <div class="project-info">
+              <h4>Buscador</h4>
+              <p>Feito para testar minhas habilidades em Python e Customtkinter, esse sistemas busca famosos pelo mundo e mostra suas características.</p>
+              <div class="tags"><span>Pyhton</span><span>Customtkinter</span></div>
+              <div class="project-actions">
+                <button class="btn small" onclick="openModal(3)">Detalhes</button>
+                <a class="btn small ghost" href="#">Ver Código</a>
+              </div>
+            </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="container" data-aos="fade-up">                   
+        <h3>Skills</h3>
+        <div class="skills-grid">
+          <div class="skill" data-aos="flip-left"><h4>Front‑end</h4><p>HTML, CSS, JavaScript, React Native</p></div>
+          <div class="skill" data-aos="flip-left" data-aos-delay="100"><h4>Back‑end</h4><p>Python, MySql, Firebase</p></div>
+          <div class="skill" data-aos="flip-left" data-aos-delay="300"><h4>Design</h4><p>Figma, Prototipagem, Animações</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <div class="container" data-aos="fade-up">
+        <h3>Experiência e Educação</h3>
+        <div class="timeline">
+          <div class="timeline-item">
+            <h4>UNASP - Sistemas da Informação</h4>
+            <span class="muted">2025 — presente</span>
+            <p>Atualmente estou cursando o segundo semestre de Sistemas de Informação dentro da instuição</p>
+          </div>
+          <div class="timeline-item">
+            <h4>Etec de Hortolândia</h4>
+            <span class="muted">2022 - 2024</span>
+            <p>Realizei meu ensino medio/técnico em Desenvolvimento de Sistemas</p>
+          </div> 
+          <div class="timeline-item">
+            <h4>WS Transportes - Ajudante de motorista</h4>
+            <span class="muted">2021 - 2025</span>
+            <p>Ajudo em atividades de carga e desgarga, atendimento ao cliente e montagem de camas</p>
+          </div>
+        </div>   
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="container" data-aos="fade-up">
+        <h3>Contato</h3>
+        <p>Vamos conversar? Me mande um e‑mail ou uma mensagem no LinkedIn.</p>
+        <form id="contactForm" onsubmit="submitContact(event)">
+          <div class="form-grid">
+            <input name="name" placeholder="Seu nome" required>
+            <input name="email" placeholder="Seu e‑mail" type="email" required>
+            <input name="subject" placeholder="Assunto">
+            <textarea name="message" placeholder="Mensagem" required></textarea>
+          </div>
+          <div class="form-actions">
+            <button class="btn" type="submit">Enviar</button>
+            <a class="btn ghost" href="mailto:guigodoi2006@example.com">Abrir e‑mail</a>
+          </div>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-left">
+        <strong>Guilherme Godoi</strong>
+        <p class="muted">Desenvolvedor · UNASP</p>
+      </div>
+      <div class="footer-right">
+        <a href="#" aria-label="github"><i class="fab fa-github"></i></a>
+        <a href="#" aria-label="linkedin"><i class="fab fa-linkedin"></i></a>
+        <a href="#" aria-label="instagram"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Modal template -->
+  <div id="modal" class="modal" aria-hidden="true">
+    <div class="modal-content" role="dialog">
+      <button class="modal-close" onclick="closeModal()" aria-label="Fechar">×</button>
+      <div id="modalBody"></div>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script>
+    AOS.init({once: true, duration:800});
+  </script>
+</body>
+</html>
